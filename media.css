@@ -1,0 +1,210 @@
+/* responsive web design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* nav-bar */
+  .nav-links {
+    display: none;
+  }
+  .head-text {
+    width: 100%;
+  }
+
+  /* =========section 2========= */
+  /* =========about========= */
+  #about .about-img {
+    width: 100%;
+    font-size: 40px;
+  }
+  #about .about-info {
+    padding-top: 30px;
+    width: 100%;
+  }
+  /* =====section 3======= */
+  /* =======our services========= */
+  #services .item {
+    width: 100%;
+  }
+  /* =====section 4======== */
+  /* =======our portfolio======== */
+  #portfolio .member {
+    width: 100%;
+  }
+  #portfolio .num .item {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  /* ===============section 5=========== */
+  #testimonial .shape {
+    width: 100%;
+    transform: translate(5%);
+  }
+  #testimonial .pink-shape {
+    width: 90%;
+  }
+  #testimonial .img-shape {
+    width: 70%;
+  }
+  /* ==========section 6============== */
+  #blog .item {
+    width: 100%;
+  }
+  /* ============section 7=========== */
+  /*  ===========contact us========== */
+  #contact .nameandemail {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  #contact .subject {
+    width: 95%;
+    margin-top: 0px;
+  }
+  #contact .txt-area {
+    width: 95%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  /* nav-bar */
+  .nav-links {
+    display: none;
+  }
+  .head-text {
+    width: 100%;
+  }
+  /* =========section 2========= */
+  /* =========about========= */
+  #about .about-img {
+    width: 100%;
+    font-size: 40px;
+  }
+  #about .about-info {
+    padding-top: 30px;
+    width: 100%;
+  }
+  /* =====section 3======= */
+  /* =======our services========= */
+  #services .item {
+    width: 100%;
+  }
+  /* =====section 4======== */
+  /* =======our portfolio======== */
+  #portfolio .member {
+    width: 90%;
+  }
+  #portfolio .num .item {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  /* ===============section 5=========== */
+  #testimonial .shape {
+    width: 100%;
+    transform: translate(5%);
+  }
+  #testimonial .pink-shape {
+    width: 90%;
+  }
+  #testimonial .img-shape {
+    width: 70%;
+  }
+  /* ==========section 6============== */
+  #blog .item {
+    width: 100%;
+  }
+  /* ============section 7=========== */
+  /*  ===========contact us========== */
+  #contact .nameandemail {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  #contact .subject {
+    width: 95%;
+    margin-top: 0px;
+  }
+  #contact .txt-area {
+    width: 95%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* =========section 2========= */
+  /* =========about========= */
+
+  #about .about-img {
+    width: 50%;
+    font-size: 40px;
+  }
+  #about .about-info {
+    width: 50%;
+    padding-left: 30px;
+  }
+  #about .about-info p {
+    width: 100%;
+  }
+  #about li {
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+  #about .about-info .btns button {
+    width: 50%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  /* =====section 3======= */
+  /* =======our services========= */
+  #services .item {
+    width: 50%;
+  }
+  /* =====section 4======== */
+  /* =======our portfolio======== */
+  #portfolio .member {
+    width: 45%;
+  }
+  #portfolio .num .item {
+    padding-bottom: 30px;
+  }
+  /* ===============section 5=========== */
+  #testimonial .shape {
+    width: 100%;
+    transform: translate(5%);
+  }
+  #testimonial .pink-shape {
+    width: 90%;
+  }
+  #testimonial .img-shape {
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* =====section 4======== */
+  /* =======our portfolio======== */
+  #portfolio .member {
+    width: 29%;
+  }
+  /* ===============section 5=========== */
+  #testimonial .shape {
+    width: 100%;
+    transform: translate(15%);
+  }
+  #testimonial .pink-shape {
+    width: 70%;
+  }
+  #testimonial .img-shape {
+    width: 65%;
+  }
+  /* ==========section 6============== */
+  #blog .item {
+    width: 30%;
+  }
+  #blog .item iframe {
+    height: 150px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* the dafault as in style.css page */
+}
